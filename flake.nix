@@ -12,9 +12,9 @@
   { 
     devShells.x86_64-linux.default = pkgs.mkShell {
         buildInputs = with pkgs; [ 
-          neovim
-          gcc
-          cmake
+          python313
+	  python313Packages.networkx
+	  python313Packages.matplotlib
           ];
       };
   };
