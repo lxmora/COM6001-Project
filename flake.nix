@@ -15,6 +15,9 @@
           python313
 	  python313Packages.networkx
 	  python313Packages.matplotlib
+	  python313Packages.scikit-learn
+	  python313Packages.scipy
+	  python313Packages.numpy
           ];
       };
   };
